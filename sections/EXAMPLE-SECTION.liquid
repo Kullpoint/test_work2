@@ -1,0 +1,84 @@
+<link rel="stylesheet" href="{{ 'section-example.css' | asset_url }}">
+
+<style>
+    #shopify-section-{{ section.id }} .section-example {
+        margin-top: {{ section.settings.margin-top }}px;
+        margin-bottom: {{ section.settings.margin-bottom }}px;
+    }
+</style>
+
+{% render 'breadcrumbs' %}
+
+<div class="section-example__wrapper">
+    <h2 class="section-example__title">{{ section.settings.title }}</h2>
+    <div class="section-example__description">{{ section.settings.description }}</div>
+</div>
+
+<script type="module" src="{{ 'section-example.js' | asset_url }}"></script>
+
+{% schema %}
+    {
+        "name": "Example section",
+        "tag": "section",
+        "class": "section-example",
+        "settings": [
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title"
+            },
+            {
+                "type": "textarea",
+                "id": "description",
+                "label": "Description",
+                "info": "Use <br> to break a line"
+            },
+            {
+                "type": "range",
+                "id": "margin-top",
+                "min": 0,
+                "max": 200,
+                "step": 5,
+                "unit": "px",
+                "label": "Margin top",
+                "default": 45
+            },
+            {
+                "type": "range",
+                "id": "margin-bottom",
+                "min": 0,
+                "max": 200,
+                "step": 5,
+                "unit": "px",
+                "label": "Margin bottom",
+                "default": 45
+            }
+        ],
+        "blocks": [
+            {
+                "name": "Item",
+                "type": "block",
+                "settings": [
+                    {
+                        "type": "image_picker",
+                        "id": "item-logo",
+                        "label": "Partner logo"
+                    },
+                    {
+                        "type": "url",
+                        "id": "item-url",
+                        "label": "Partner link"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name": "Example section",
+                "settings": {
+
+                }
+            }
+        ]
+    }
+{% endschema %}

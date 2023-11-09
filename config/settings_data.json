@@ -1,0 +1,138 @@
+{
+  "current": {
+    "heading_font": "harmonia_sans_n4",
+    "body_font": "harmonia_sans_n4",
+    "menu_font": "harmonia_sans_n4",
+    "button_font": "harmonia_sans_n4",
+    "quick_shop": true,
+    "quick_shop_collection": "all",
+    "products_style": "style1",
+    "products_hover_image": true,
+    "show_products_vendor": true,
+    "cookie_notice": true,
+    "cookie_notice_text": "<p>Our site uses cookies. Learn more about our use of cookies: cookie policy<\/p>",
+    "favicon": "shopify:\/\/shop_images\/favicon.png",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "left",
+    "checkout_logo_size": "medium",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#fafafa",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#197bbd",
+    "checkout_button_color": "#197bbd",
+    "checkout_error_color": "#e32c2b",
+    "mobile_secondary_menu": "secondary-menu",
+    "cart_notes_enable": true,
+    "sections": {
+      "announcement-bar": {
+        "type": "announcement-bar",
+        "settings": {
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "0a7694f3-4ed6-4379-825f-f0a5d763d690": {
+            "type": "block",
+            "settings": {
+              "icon": "<svg width=\"28\" height=\"30\" viewbox=\"0 0 28 30\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M21.5921 8.03549L21.5487 8.00558C20.6516 7.12309 19.5953 6.70428 18.3799 6.76411L18.3365 6.67437L18.3654 6.65941C19.4651 6.40513 20.1162 6.1359 20.3188 5.83675C20.3767 5.59743 20.3043 5.46282 20.0584 5.4329C19.5085 5.50769 18.9876 5.62735 18.5391 5.8218C19.1178 5.4329 19.3349 5.16367 19.2047 5.02905C18.6403 5.04401 18.0182 5.34316 17.3815 5.94145C17.613 5.52265 17.7143 5.28333 17.6564 5.25341C17.3381 5.46282 17.0776 5.70214 16.8461 5.95641C16.3542 6.52479 15.9635 7.0483 15.6596 7.52694L15.6452 7.55685C14.8783 8.85815 14.3284 10.1594 14.0101 11.4907L13.8944 11.5954L13.8654 11.6103C13.4024 11.012 12.8381 10.5035 12.1725 10.0996C11.3911 9.56115 10.4651 9.06755 9.39435 8.57396C8.2368 7.94575 7.0503 7.4372 5.8638 7.03334C5.84933 8.42438 6.51493 9.51627 7.80271 10.324V10.3389C7.35416 10.3389 6.9056 10.4137 6.47152 10.5483C6.55834 11.8347 7.44097 12.7172 9.10496 13.1958L9.09049 13.2257C8.43937 13.1808 7.904 13.4202 7.48438 13.9138C8.03422 15.0206 9.00368 15.5441 10.4072 15.5142C10.1323 15.6638 9.91525 15.8133 9.77056 15.9928C9.51011 16.277 9.42329 16.6061 9.51011 16.98C9.81397 17.5484 10.3493 17.8027 11.1452 17.7578L11.1886 17.8176L11.1741 17.8475C9.7995 19.3134 8.13551 19.9715 6.1966 19.8369L6.16766 19.8518C4.98116 19.8369 3.70785 19.2535 2.33325 18.0869C3.70785 20.136 5.54547 21.6168 7.81718 22.5591C10.4072 23.4416 13.0117 23.5164 15.6018 22.7536H15.6452C18.1629 22.0057 20.2899 20.4501 22.0551 18.1168C22.8654 16.9052 23.3719 15.7386 23.5744 14.6167C24.8912 14.6616 25.8317 14.2727 26.4249 13.4351L26.4104 13.4052C25.9619 13.5697 25.1082 13.5249 23.8494 13.2556V13.1061C25.2384 12.9415 26.0632 12.4778 26.3236 11.715C25.3542 12.1039 24.3992 12.1189 23.4587 11.7449C23.285 10.3988 22.6629 9.1573 21.5921 8.03549Z\" fill=\"#C2D1D9\"><\/path>\n<mask id=\"mask0_349_898\" style=\"mask-type:luminance\" maskunits=\"userSpaceOnUse\" x=\"2\" y=\"5\" width=\"25\" height=\"19\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M21.5921 8.03549L21.5487 8.00558C20.6516 7.12309 19.5953 6.70428 18.3799 6.76411L18.3365 6.67437L18.3654 6.65941C19.4651 6.40513 20.1162 6.1359 20.3188 5.83675C20.3767 5.59743 20.3043 5.46282 20.0584 5.4329C19.5085 5.50769 18.9876 5.62735 18.5391 5.8218C19.1178 5.4329 19.3349 5.16367 19.2047 5.02905C18.6403 5.04401 18.0182 5.34316 17.3815 5.94145C17.613 5.52265 17.7143 5.28333 17.6564 5.25341C17.3381 5.46282 17.0776 5.70214 16.8461 5.95641C16.3542 6.52479 15.9635 7.0483 15.6596 7.52694L15.6452 7.55685C14.8783 8.85815 14.3284 10.1594 14.0101 11.4907L13.8944 11.5954L13.8654 11.6103C13.4024 11.012 12.8381 10.5035 12.1725 10.0996C11.3911 9.56115 10.4651 9.06755 9.39435 8.57396C8.2368 7.94575 7.0503 7.4372 5.8638 7.03334C5.84933 8.42438 6.51493 9.51627 7.80271 10.324V10.3389C7.35416 10.3389 6.9056 10.4137 6.47152 10.5483C6.55834 11.8347 7.44097 12.7172 9.10496 13.1958L9.09049 13.2257C8.43937 13.1808 7.904 13.4202 7.48438 13.9138C8.03422 15.0206 9.00368 15.5441 10.4072 15.5142C10.1323 15.6638 9.91525 15.8133 9.77056 15.9928C9.51011 16.277 9.42329 16.6061 9.51011 16.98C9.81397 17.5484 10.3493 17.8027 11.1452 17.7578L11.1886 17.8176L11.1741 17.8475C9.7995 19.3134 8.13551 19.9715 6.1966 19.8369L6.16766 19.8518C4.98116 19.8369 3.70785 19.2535 2.33325 18.0869C3.70785 20.136 5.54547 21.6168 7.81718 22.5591C10.4072 23.4416 13.0117 23.5164 15.6018 22.7536H15.6452C18.1629 22.0057 20.2899 20.4501 22.0551 18.1168C22.8654 16.9052 23.3719 15.7386 23.5744 14.6167C24.8912 14.6616 25.8317 14.2727 26.4249 13.4351L26.4104 13.4052C25.9619 13.5697 25.1082 13.5249 23.8494 13.2556V13.1061C25.2384 12.9415 26.0632 12.4778 26.3236 11.715C25.3542 12.1039 24.3992 12.1189 23.4587 11.7449C23.285 10.3988 22.6629 9.1573 21.5921 8.03549Z\" fill=\"white\"><\/path>\n<\/mask>\n<g mask=\"url(#mask0_349_898)\">\n<rect y=\"0.205078\" width=\"28\" height=\"28.9442\" fill=\"#ECB22D\"><\/rect>\n<\/g>\n<\/svg>",
+              "url": ""
+            }
+          },
+          "3c0127ad-2f6c-4ec8-b66f-39cea2a19e56": {
+            "type": "block",
+            "settings": {
+              "icon": "<svg width=\"29\" height=\"29\" viewbox=\"0 0 29 29\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path d=\"M18.1278 14.4779H15.8384C15.8384 18.259 15.8384 22.9132 15.8384 22.9132H12.4459C12.4459 22.9132 12.4459 18.3041 12.4459 14.4779H10.8333V11.4965H12.4459V9.56818C12.4459 8.1871 13.0808 6.02905 15.8696 6.02905L18.3835 6.03901V8.93302C18.3835 8.93302 16.8559 8.93302 16.5588 8.93302C16.2618 8.93302 15.8395 9.08653 15.8395 9.74514V11.4971H18.4243L18.1278 14.4779Z\" fill=\"#C2D1D9\"><\/path>\n<mask id=\"mask0_349_893\" style=\"mask-type:luminance\" maskunits=\"userSpaceOnUse\" x=\"10\" y=\"6\" width=\"9\" height=\"17\">\n<path d=\"M18.1278 14.4779H15.8384C15.8384 18.259 15.8384 22.9132 15.8384 22.9132H12.4459C12.4459 22.9132 12.4459 18.3041 12.4459 14.4779H10.8333V11.4965H12.4459V9.56818C12.4459 8.1871 13.0808 6.02905 15.8696 6.02905L18.3835 6.03901V8.93302C18.3835 8.93302 16.8559 8.93302 16.5588 8.93302C16.2618 8.93302 15.8395 9.08653 15.8395 9.74514V11.4971H18.4243L18.1278 14.4779Z\" fill=\"white\"><\/path>\n<\/mask>\n<g mask=\"url(#mask0_349_893)\">\n<rect x=\"0.333252\" y=\"-0.000976562\" width=\"28\" height=\"28.9442\" fill=\"#ECB22D\"><\/rect>\n<\/g>\n<\/svg>",
+              "url": ""
+            }
+          },
+          "cc23828a-4ecf-44af-8845-3a8c4784aeee": {
+            "type": "block",
+            "settings": {
+              "icon": "<svg width=\"29\" height=\"29\" viewbox=\"0 0 29 29\" fill=\"none\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M22.8328 19.6498V12.7381V9.2918C22.8328 7.49212 21.4168 6.02905 19.6759 6.02905H9.65631C7.91534 6.02905 6.5 7.49212 6.5 9.2918V12.7381V19.6498C6.5 21.4501 7.91534 22.9132 9.65631 22.9132H19.6764C21.4168 22.9132 22.8328 21.4501 22.8328 19.6498ZM17.5416 14.4702C17.5416 16.1091 16.25 17.4418 14.6658 17.4418C13.081 17.4418 11.7906 16.1085 11.7923 14.4696C11.7929 13.8227 11.9959 13.2254 12.336 12.7375C12.8595 11.9889 13.708 11.4986 14.6675 11.4986C15.6265 11.4986 16.4756 11.9895 16.9979 12.7381C17.3368 13.226 17.5416 13.8233 17.5416 14.4702ZM20.9431 10.835V8.34412V7.97343L20.5828 7.97462L18.1744 7.98239L18.1836 10.8445L20.9431 10.835ZM14.6664 19.0878C17.1298 19.0878 19.1333 17.0155 19.1333 14.4702C19.1333 13.858 19.0136 13.2726 18.8013 12.7381H21.2404V19.6498C21.2404 20.5431 20.5377 21.2666 19.6753 21.2666H9.65573C8.79218 21.2666 8.09059 20.5431 8.09059 19.6498V12.7381H10.5285C10.318 13.2726 10.2 13.858 10.2 14.4702C10.2 17.0155 12.203 19.0878 14.6664 19.0878Z\" fill=\"black\"><\/path>\n<mask id=\"mask0_349_880\" style=\"mask-type:luminance\" maskunits=\"userSpaceOnUse\" x=\"6\" y=\"6\" width=\"17\" height=\"17\">\n<path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M22.8328 19.6498V12.7381V9.2918C22.8328 7.49212 21.4168 6.02905 19.6759 6.02905H9.65631C7.91534 6.02905 6.5 7.49212 6.5 9.2918V12.7381V19.6498C6.5 21.4501 7.91534 22.9132 9.65631 22.9132H19.6764C21.4168 22.9132 22.8328 21.4501 22.8328 19.6498ZM17.5416 14.4702C17.5416 16.1091 16.25 17.4418 14.6658 17.4418C13.081 17.4418 11.7906 16.1085 11.7923 14.4696C11.7929 13.8227 11.9959 13.2254 12.336 12.7375C12.8595 11.9889 13.708 11.4986 14.6675 11.4986C15.6265 11.4986 16.4756 11.9895 16.9979 12.7381C17.3368 13.226 17.5416 13.8233 17.5416 14.4702ZM20.9431 10.835V8.34412V7.97343L20.5828 7.97462L18.1744 7.98239L18.1836 10.8445L20.9431 10.835ZM14.6664 19.0878C17.1298 19.0878 19.1333 17.0155 19.1333 14.4702C19.1333 13.858 19.0136 13.2726 18.8013 12.7381H21.2404V19.6498C21.2404 20.5431 20.5377 21.2666 19.6753 21.2666H9.65573C8.79218 21.2666 8.09059 20.5431 8.09059 19.6498V12.7381H10.5285C10.318 13.2726 10.2 13.858 10.2 14.4702C10.2 17.0155 12.203 19.0878 14.6664 19.0878Z\" fill=\"white\"><\/path>\n<\/mask>\n<g mask=\"url(#mask0_349_880)\">\n<rect x=\"0.666748\" y=\"-0.000976562\" width=\"28\" height=\"28.9442\" fill=\"#ECB22D\"><\/rect>\n<\/g>\n<\/svg>",
+              "url": ""
+            }
+          }
+        },
+        "block_order": [
+          "0a7694f3-4ed6-4379-825f-f0a5d763d690",
+          "3c0127ad-2f6c-4ec8-b66f-39cea2a19e56",
+          "cc23828a-4ecf-44af-8845-3a8c4784aeee"
+        ],
+        "settings": {
+          "description": "We add variation to your diet. We provide pre-cooked and tastily seasoned, plant-based meat that can be used to prepare almost any dish, it's called seitan.",
+          "footer-menu": "footer",
+          "phone": "+31 6 19 25 01 41",
+          "email": "contact@thehendrikstasty.com",
+          "address": "The Hendrik's Tasty Leidsedreef 88 2352 BA Leiderdorp Netherlands",
+          "address_url": "https:\/\/goo.gl\/maps\/FcK6LpthA2LuGonAA",
+          "copyright": "Copyright © The Hendrik's Tasty",
+          "footer-bottom-menu": "footer-second-menu"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Default": {
+      "heading_font": "harmonia_sans_n4",
+      "body_font": "harmonia_sans_n4",
+      "menu_font": "harmonia_sans_n4",
+      "button_font": "harmonia_sans_n4",
+      "quick_shop": true,
+      "quick_shop_collection": "all",
+      "products_style": "style1",
+      "products_hover_image": true,
+      "show_products_vendor": true,
+      "cookie_notice": true,
+      "cookie_notice_text": "<p>Our site uses cookies. Learn more about our use of cookies: cookie policy<\/p>",
+      "favicon": "shopify:\/\/shop_images\/favicon.png",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+      "checkout_accent_color": "#197bbd",
+      "checkout_button_color": "#197bbd",
+      "checkout_error_color": "#e32c2b",
+      "mobile_secondary_menu": "secondary-menu",
+      "cart_notes_enable": true,
+      "sections": {
+        "footer": {
+          "type": "footer",
+          "settings": {
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+          }
+        },
+        "announcement-bar": {
+          "type": "announcement-bar",
+          "settings": {
+            "global_notification": true,
+            "global_notification_close": true,
+            "global_notification_homepage_only": false
+          }
+        }
+      },
+      "content_for_index": [
+
+      ]
+    }
+  }
+}

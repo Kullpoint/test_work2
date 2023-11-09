@@ -1,0 +1,35 @@
+/* ==================================================== IMPORTS ==================================================== */
+//application
+@import './variables.scss';
+@import './normalize.scss';
+@import './fonts.scss';
+//modules
+@import '../../node_modules/swiper/swiper-bundle.css';
+/* ===================================================== COMMON ==================================================== */
+
+body {
+    width: 100%;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    line-height: 1;
+    // -webkit-font-smoothing: antialiased;
+}
+
+body,
+textarea,
+ul {
+    &::-webkit-scrollbar {
+        width: 10px;
+        background-color: $dark_white-color;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        border-radius: 10px;
+        background-color: $yellow-color;    
+    }
+
+    &::-webkit-scrollbar-track {
+        border-left: 1px solid $lighter_yellow-color;
+        background-color: $dark_white-color;
+    }
+}

@@ -1,0 +1,31 @@
+<div class="product-card">
+    <a class="product-card__image-wrapper" href="{{ product.url }}">
+            <img 
+                src="
+                    {% if product.images.size == 0 %}
+                        {{ 'default.jpg' | asset_url }}
+                    {% else %}
+                        {{ product.featured_image | image_url }}
+                    {% endif %}
+                "
+                alt="{{ product.featured_image.src }}" 
+                loading="lazy" 
+                width="{{ product.featured_image.width }}" 
+                height="{{ product.featured_image.height }}"
+            >
+    </a>
+    <a href="{{ product.url }}" class="product-card__title">{{ product.title }}</a>
+    <h6 class="product-card__bottom">
+        <div class="bottom__prices">
+            <div class="prices__current">{{ product.price | money }}</div>
+            <div class="prices__btw">Excl. btw: {{ product.compare_at_price | money }}</div>
+        </div>
+        <div class="bottom__buy-btn">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                <path d="M6.74327 14.4517C5.44138 14.4517 4.38222 15.4719 4.38222 16.7259C4.38222 17.9798 5.44138 19 6.74327 19C8.04515 19 9.10432 17.9798 9.10432 16.7259C9.10432 15.4719 8.04512 14.4517 6.74327 14.4517Z" fill="#2D3142"/>
+                <path d="M13.7319 14.4517C12.43 14.4517 11.3709 15.4719 11.3709 16.7259C11.3709 17.9798 12.43 19 13.7319 19C15.0338 19 16.093 17.9798 16.093 16.7259C16.093 15.4719 15.0338 14.4517 13.7319 14.4517Z" fill="#2D3142"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M17.2916 4.66427C17.5075 4.66427 17.7114 4.75907 17.846 4.92191C17.9804 5.08451 18.0304 5.29737 17.9818 5.5L16.3109 12.8994C16.2365 13.2094 15.9506 13.4283 15.6208 13.4283H5.70442C5.36632 13.4283 5.0752 13.198 5.00957 12.8785L2.93093 2.75881L0 2.3422L0.255439 1L3.65999 1.50031C3.94593 1.55079 4.17069 1.76432 4.22712 2.03882L4.88915 4.66427H17.2916Z" fill="#2D3142"/>
+            </svg>
+        </div>
+    </h6>
+</div>
